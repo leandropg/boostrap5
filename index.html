@@ -133,36 +133,40 @@
         <!-- You can use at the same time col-lg-3 (4 items in large) col-md-6 (2 items in medium) -->
         <div class="col-lg-3 col-md-6">
           <div class="card">
-            <div class="card-header bg-primary text-white text-center">
+            <div class="card-header bg-info text-white text-center">
               <p class="h3">Card 1</p>
-              <img class="img-fluid" src="#" alt="">
+              <!-- Photo by Josh Sorenson: https://www.pexels.com/photo/black-flat-screen-computer-monitor-1714208/ -->
+              <img class="img-fluid" src="img/pexels-joshsorenson-1714208.jpg" alt="">
             </div>
             <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
           </div>  
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="card">
-            <div class="card-header bg-primary text-white text-center">
+            <div class="card-header bg-info text-white text-center">
               <p class="h3">Card 2</p>
-              <img class="img-fluid" src="#" alt="">
+              <!-- Photo by Nao Triponez: https://www.pexels.com/photo/shallow-focus-photography-of-macbook-792199/-->
+              <img class="img-fluid" src="img/pexels-natri-792199.jpg" alt="">
             </div>
             <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
           </div>  
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="card">
-            <div class="card-header bg-primary text-white text-center">
+            <div class="card-header bg-info text-white text-center">
               <p class="h3">Card 3</p>
-              <img class="img-fluid" src="#" alt="">
+              <!-- Photo by Lee Campbell: https://www.pexels.com/photo/imac-aluminum-on-table-115655/-->
+              <img class="img-fluid" src="img/pexels-lee-campbell-18167-115655.jpg" alt="">
             </div>
             <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
           </div>  
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="card">
-            <div class="card-header bg-primary text-white text-center">
+            <div class="card-header bg-info text-white text-center">
               <p class="h3">Card 4</p>
-              <img class="img-fluid" src="#" alt="">
+              <!-- Photo by Designecologist: https://www.pexels.com/photo/silver-imac-displaying-collage-photos-1779487/ -->
+              <img class="img-fluid" src="img/pexels-designecologist-1779487.jpg" alt="">
             </div>
             <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
           </div>  
@@ -173,5 +177,38 @@
     <hr>
     <p class="h1 text-center">Carousel</p>
     <hr>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- Photo by Josh Sorenson: https://www.pexels.com/photo/black-flat-screen-computer-monitor-1714208/ -->
+          <img src="img/pexels-joshsorenson-1714208.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <!-- Photo by Nao Triponez: https://www.pexels.com/photo/shallow-focus-photography-of-macbook-792199/-->
+          <img src="img/pexels-natri-792199.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <!-- Photo by Lee Campbell: https://www.pexels.com/photo/imac-aluminum-on-table-115655/-->
+          <img src="img/pexels-lee-campbell-18167-115655.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <!-- Photo by Designecologist: https://www.pexels.com/photo/silver-imac-displaying-collage-photos-1779487/ -->
+          <img src="img/pexels-designecologist-1779487.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </body>
 </html>

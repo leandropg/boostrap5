@@ -15,6 +15,8 @@
     <!-- Boostrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Typography -->
+    <p class="h1 text-center">Typography</p>
+    <hr>
     <p class="h1">Header 1</p>
     <p class="h2">Header 2</p>
     <p class="h3">Header 3</p>
@@ -31,15 +33,18 @@
     <h2 class="fw-bold">Bold</h2>
     <h2 class="fst-italic">Italic</h2>
     <!-- Colors -->
-    <button class="btn btn-primary">Primary</button><br />
-    <button class="btn btn-secondary">Secondary</button><br />
-    <button class="btn btn-success">Success</button><br />
-    <button class="btn btn-warning">Warning</button><br />
-    <button class="btn btn-danger">Danger</button><br />
-    <button class="btn btn-light">Light</button><br />
-    <button class="btn btn-dark">Dark</button><br />
-    <button class="btn btn-white">White</button><br />
+    <p class="text-primary fw-bold">Primary</p>
+    <p class="text-secondary fw-bold">Secondary</p>
+    <p class="text-success fw-bold">Success</p>
+    <p class="text-warning fw-bold">Warning</p>
+    <p class="text-danger fw-bold">Danger</p>
+    <p class="text-light fw-bold bg-dark">Light</p>
+    <p class="text-dark fw-bold">Dark</p>
+    <p class="text-white fw-bold bg-dark">White</p>
     <!-- Alerts -->
+    <hr>
+    <p class="h1 text-center">Alerts</p>
+    <hr>
     <div class="alert alert-danger">
         <span class="h3 fw-bold">Warning</span>
         <div>Warning explanation...</div>
@@ -49,6 +54,120 @@
         <span class="h3 fw-bold">Success</span>
         <div>Success explanation...</div>
         <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <!-- Badges -->
+    <hr>
+    <p class="h1 text-center">Badges</p>
+    <hr>
+    <p class="h1">Bagdge H1 <span class="badge bg-primary">New</span></p>
+    <p class="h2">Bagdge H2 <span class="badge bg-secondary">New</span></p>
+    <p class="h3">Bagdge H3 <span class="badge bg-success">New</span></p>
+    <p class="h4">Bagdge H4 <span class="badge bg-warning">New</span></p>
+    <p class="h5">Bagdge H5 <span class="badge bg-danger">New</span></p>
+    <p class="h6">Bagdge H6 <span class="badge bg-dark">New</span></p>
+    <p class="h1">Bagdge H1 <span class="badge bg-primary rounded-circle">New</span></p>
+    <p class="h2">Bagdge H2 <span class="badge bg-secondary rounded-circle">New</span></p>
+    <p class="h3">Bagdge H3 <span class="badge bg-success rounded-circle">New</span></p>
+    <p class="h4">Bagdge H4 <span class="badge bg-warning rounded-circle">New</span></p>
+    <p class="h5">Bagdge H5 <span class="badge bg-danger rounded-circle">New</span></p>
+    <p class="h6">Bagdge H6 <span class="badge bg-dark rounded-circle">New</span></p>
+    <p class="h1">Bagdge H1 <span class="badge bg-primary rounded-pill">New</span></p>
+    <p class="h2">Bagdge H2 <span class="badge bg-secondary rounded-pill">New</span></p>
+    <p class="h3">Bagdge H3 <span class="badge bg-success rounded-pill">New</span></p>
+    <p class="h4">Bagdge H4 <span class="badge bg-warning rounded-pill">New</span></p>
+    <p class="h5">Bagdge H5 <span class="badge bg-danger rounded-pill">New</span></p>
+    <p class="h6">Bagdge H6 <span class="badge bg-dark rounded-pill">New</span></p>
+    <button type="button" class="btn btn-primary position-relative">
+      Inbox
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">Unread Messages</span>
+      </span>
+    </button>
+    <!-- Buttons -->
+    <hr>
+    <p class="h1 text-center">Buttons</p>
+    <hr>
+    <div class="p-2">
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-light">Light</button>
+      <button class="btn btn-dark">Dark</button>
+      <button class="btn btn-white">White</button>
+      <button class="btn btn-info">Info</button><br />
+    </div>
+    <div class="p-2">
+      <button class="btn btn-outline-primary">Primary</button>
+      <button class="btn btn-outline-secondary">Secondary</button>
+      <button class="btn btn-outline-success">Success</button>
+      <button class="btn btn-outline-warning">Warning</button>
+      <button class="btn btn-outline-danger">Danger</button>
+      <button class="btn btn-outline-light"t>Light</button>
+      <button class="btn btn-outline-dark">Dark</button>
+      <button class="btn btn-outline-white">White</button>
+      <button class="btn btn-outline-info">Info</button><br />
+    </div>
+    <div class="p-2">
+      <a class="btn btn-primary">Link as Button</a>
+      <button class="btn btn-secondary" type="submit">Submit Button</button>
+      <input class="btn btn-success" type="button" value="Input Type Button">
+      <input class="btn btn-warning" type="submit" value="Input Type Submit">
+      <input class="btn btn-danger" type="reset" value="Input Type Reset">
+    </div>
+    <div class="p-2">
+      <button class="btn btn-primary" disabled>Button Disabled</button>
+    </div>
+    <!-- Cards -->
+    <hr>
+    <p class="h1 text-center">Cards</p>
+    <hr>
+    <!-- Grid System -->
+    <div class="grid">
+      <!-- One Row -->
+      <div class="row">
+        <!-- Screen Sizes: sm / md / lg / xl / xxl -->
+        <!-- 4 items by Row = 12 / (3) = 4 .col-<screen>-3 -->
+        <!-- You can use at the same time col-lg-3 (4 items in large) col-md-6 (2 items in medium) -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header bg-primary text-white text-center">
+              <p class="h3">Card 1</p>
+              <img class="img-fluid" src="#" alt="">
+            </div>
+            <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
+          </div>  
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header bg-primary text-white text-center">
+              <p class="h3">Card 2</p>
+              <img class="img-fluid" src="#" alt="">
+            </div>
+            <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
+          </div>  
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header bg-primary text-white text-center">
+              <p class="h3">Card 3</p>
+              <img class="img-fluid" src="#" alt="">
+            </div>
+            <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
+          </div>  
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header bg-primary text-white text-center">
+              <p class="h3">Card 4</p>
+              <img class="img-fluid" src="#" alt="">
+            </div>
+            <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem esse libero provident neque suscipit consectetur illo harum necessitatibus deleniti.</div>
+          </div>  
+        </div>
+      </div>
     </div>
   </body>
 </html>
